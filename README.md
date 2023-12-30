@@ -7,7 +7,7 @@ Microcomputers are full computers that run an OS (generally Linux). The differen
 
 ## Microcontrollers
 
-Microcontrollers are single-threaded. They just do on thing: run the code given to them. There is generally no OS. They have much, much less resources.
+Microcontrollers are single-threaded. They just do one thing: run the code given to them. There is generally no OS. They have much, much less resources.
 
 ### Pico W
 
