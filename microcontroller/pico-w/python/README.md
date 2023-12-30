@@ -8,7 +8,7 @@ Hold down the BOOTSEL button on the Pico while connecting it to the computer. It
 
 ## Develop using VS Code
 
-- Assuming VS Code is installed and up-to-date, install the ncessary extensions:
+- Assuming VS Code is installed and up-to-date, install the necessary extensions:
 
 ```
 code --install-extension ms-python.python
