@@ -1,0 +1,6 @@
+.DS_Store
+*.pem.crt
+*.pem.key
+*.der
+.vscode/
+.micropico
