@@ -11,6 +11,7 @@
   "author": "François Roseberry",
   "license": "MIT",
   "dependencies": {
-    "node-dht-sensor": "0.4.1"
+    "node-dht-sensor": "0.4.1",
+    "aws-sdk": "2.564.0"
   }
 }

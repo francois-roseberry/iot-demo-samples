@@ -5,6 +5,8 @@ Just code templates for IoT devices for a demo
 
 Microcomputers are full computers that run an OS (generally Linux). The difference with normal computers is that they generally have input and output pins (GPIO, or General purpose input-output, ports). These input pins allow them to read data from  real-world devices and the output pins allow them to act on real-world devices. They also have far fewer resources than normal computers.
 
+See [here](microcomputer/pizero-w/node/README.md)
+
 ## Microcontrollers
 
 Microcontrollers are single-threaded. They just do one thing: run the code given to them. There is generally no OS. They have much, much less resources.

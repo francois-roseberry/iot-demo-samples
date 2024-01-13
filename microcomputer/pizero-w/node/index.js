@@ -1,3 +1,5 @@
+const awsIot = require('aws-iot-device-sdk')
+
 const interval = 5;
 
 /**
@@ -40,8 +42,29 @@ const sensor = {
 };
 
 if (sensor.initialize()) {
-  console.log('Started...');
-  sensor.read();
+  console.log('Initialized sensor...');
+  // TODO replace variables with your values
+  const device = awsIot.device({
+    keyPath: 'PRIVATE_KEY.key',
+    certPath: 'CERTIFICATE.pem',
+    caPath: 'ROOT_CERTIFICATE.pem',
+    clientId: 'YOUR_THING_NAME',
+    host: 'TOT_ENDPOINT_FOR_YOUR_AWS_ACCOUNT'
+  });
+ 
+  device.on('connect', () => {
+    console.log('Connected to AWS IoT');
+    sensor.read();
+  });
+  
+  device.on('disconnect', (reason) => {
+    console.error(`Disconnected from AWS IoT: ${reason}`);
+  });
+
+  device.on('error', (err) => {
+    console.error('Error interacting with AWS IoT');
+    console.error(err); 
+  });
 } else {
   console.error('Failed to initialize sensor');
 }
