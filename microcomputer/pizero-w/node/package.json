@@ -1,0 +1,16 @@
+{
+  "name": "pi-zero-temp-humidity",
+  "version": "0.0.1",
+  "repository": "https://github.com/francois-roseberry/iot-demo-samples",
+  "description": "A node project to read sensor data and log it to console, serving as exercise for iot demo",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "./deps.sh",
+    "start": "node index.js"
+  },
+  "author": "François Roseberry",
+  "license": "MIT",
+  "dependencies": {
+    "node-dht-sensor": "0.4.1"
+  }
+}

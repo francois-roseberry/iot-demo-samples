@@ -4,3 +4,5 @@
 *.der
 .vscode/
 .micropico
+node_modules/
+
