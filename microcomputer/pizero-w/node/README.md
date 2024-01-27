@@ -4,7 +4,7 @@ Yes, the node version is slightly outdated. The official node website does not h
 
 # Setup network connection
 
-Make sure the network you intend to connect to also emits on the 2.4Ghz band. First connect to the PI using a screen and keyboard, type `sudo raspi config` to go into the pi config tool, enter the wifi SSID and password, enable SSH, then reboot. You should be able to connect to the Pi over SSH now. To find the Pi IP address, connect it on the network and scan the network using arp-scan. On a mac, you can install it in brew. Then `sudo arp-scan --localnet`. This command may show the Pi 3 times as duplicates. Just grab the IP.
+Make sure the network you intend to connect to also emits on the 2.4Ghz band. First connect to the PI using a screen and keyboard, type `sudo raspi config` to go into the pi config tool, enter the wifi SSID and password, enable SSH, then reboot. You should be able to connect to the Pi over SSH now. To find the Pi IP address, connect it on the network and scan the network using arp-scan. On a mac, you can install it in brew. Then `sudo arp-scan --localnet`. This command may show the Pi 3 times as duplicates. Just grab the IP. User/password will be the default: pi/raspberry
 
 ## Install
 
