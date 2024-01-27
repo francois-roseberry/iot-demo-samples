@@ -20,15 +20,23 @@ Connect the Data to the GPIO 4 (pin 7)
 
 When holding the board face up and the pins are on the right side, here are some of the pin numbers and their function:
 
-3.3v    -  1  2 - 5V
-GPIO 2  -  3  4 - 5V
-GPIO 3  -  5  6 - GND
-GPIO 4  -  7  8 - GPIO 14, TXD (UART)
-GND     -  9 10 - GPIO 15, RXD (UART)
-GPIO 17 - 11 12 - GPIO 18, CLK
-GPIO 27 - 13 14 - GND
-GPIO 22 - 15 16 - GPIO 23
-3.3v    - 17 18 - GPIO 24
+3.3v         -  1  2 - 5V
+
+GPIO 2 (I2C) -  3  4 - 5V
+
+GPIO 3 (I2C) -  5  6 - GND
+
+GPIO 4       -  7  8 - GPIO 14, TXD (UART)
+
+GND          -  9 10 - GPIO 15, RXD (UART)
+
+GPIO 17      - 11 12 - GPIO 18, CLK
+
+GPIO 27      - 13 14 - GND
+
+GPIO 22      - 15 16 - GPIO 23
+
+3.3v         - 17 18 - GPIO 24
 
 etc.
 
