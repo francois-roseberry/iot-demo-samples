@@ -17,7 +17,7 @@ You can either develop on the Pi using command line tools, or on your machine wi
 
 ## Connecting the DHT22
 
-The DHT22 has 3 ports: VCC, Data and GND
+The DHT22 has 3 ports: VCC(+), Data(out) and GND(-)
 
 Connect the VCC to the 3.3v pin on the PI (pin 1)
 Connect the GND to any ground pin on the PI (like pin 6)
