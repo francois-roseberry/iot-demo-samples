@@ -18,27 +18,15 @@ Connect the VCC to the 3.3v pin on the PI (pin 1)
 Connect the GND to any ground pin on the PI (like pin 6)
 Connect the Data to the GPIO 4 (pin 7)
 
-When holding the board face up and the pins are on the right side, here are some of the pin numbers and their function:
+When holding the board face up and the pins are on the right side, the pins are numbered from 1 to 40, left to right, down to bottom. Here are some of their functions:
 
-3.3v         -  1  2 - 5V
+Pin 1 and 17: 3.3v
+Pin 2 and 4: 5v
+Pin 6, 9, 14, 20, 25, 30, 34 and 39: GND
+Pin 7: GPIO 4
+Pin 11: GPIO 17
 
-GPIO 2 (I2C) -  3  4 - 5V
-
-GPIO 3 (I2C) -  5  6 - GND
-
-GPIO 4       -  7  8 - GPIO 14, TXD (UART)
-
-GND          -  9 10 - GPIO 15, RXD (UART)
-
-GPIO 17      - 11 12 - GPIO 18, CLK
-
-GPIO 27      - 13 14 - GND
-
-GPIO 22      - 15 16 - GPIO 23
-
-3.3v         - 17 18 - GPIO 24
-
-etc.
+You can find the full pinout diagram easily on the internet
 
 
 ## Sample
