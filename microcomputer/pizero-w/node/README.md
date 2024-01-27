@@ -26,9 +26,13 @@ Connect the Data to the GPIO 4 (pin 7)
 When holding the board face up and the pins are on the right side, the pins are numbered from 1 to 40, left to right, down to bottom. Here are some of their functions:
 
 Pin 1 and 17: 3.3v
+
 Pin 2 and 4: 5v
+
 Pin 6, 9, 14, 20, 25, 30, 34 and 39: GND
+
 Pin 7: GPIO 4
+
 Pin 11: GPIO 17
 
 You can find the full pinout diagram easily on the internet
