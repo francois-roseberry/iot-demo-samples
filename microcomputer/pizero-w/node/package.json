@@ -12,6 +12,6 @@
   "license": "MIT",
   "dependencies": {
     "node-dht-sensor": "0.4.1",
-    "aws-sdk": "2.564.0"
+    "aws-iot-device-sdk": "2.2.13"
   }
 }
