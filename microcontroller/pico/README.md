@@ -17,7 +17,7 @@ code --install-extension ms-python.vscode-pylance
 code --install-extension paulober.pico-w-go
 ```
 
-- Connect your Pico to the computer (without holding down the BOOTSEL). The MicroPython installation will expose a virtual serial port over USB, which the vs code extension uses to auto-connect to the Pico. If the extension is installed and the Pico connected, you should see 'Pico connected' in the VS code status bar.
+- Connect your Pico to the computer (without holding down the BOOTSEL). The MicroPython installation will expose a virtual serial port over USB, which the vs code extension uses to auto-connect to the Pico. run > MicroPico > Configure Project command via Ctrl+Shift+P (or the equivalent on your platform) VS Code command palette. If all goes well and the Pico connected, you should see 'Pico connected' in the VS code status bar.
 - The extension provides a terminal, which is a Python REPL running on the PICO.
 - To run a Python file on the Pico, just select that file, right-click it, then select 'Run current file on Pico'.
 - To stop it, click 'Stop' in the vs code status bar.
